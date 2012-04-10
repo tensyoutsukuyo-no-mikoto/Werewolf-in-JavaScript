@@ -2,18 +2,15 @@
 
   <head>
     <title>JavaScriptで人狼なりや？</title>
-    <script type = "text/JavaScript">
-      // いろんな設定を宣言する。
-    </script>
   </head>
 
   <body>
 
     まだ人狼ゲームは出来ていません。
-    <div id = "Jinro"
-      style = "position:absolute; left:128px; top:128px;">
-      <img src = "Graphics/.gif">
-    </div>
+    <dib id = "lyrpic"
+      style = "position:absolute; left:0; top:100;">
+　　  <img src = "Graphics/wait_a_come.gif">
+    </dib>
 
   </body>
 
