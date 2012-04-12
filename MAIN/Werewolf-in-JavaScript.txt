@@ -6,11 +6,10 @@
 
   <body>
 
-    まだ人狼ゲームは出来ていません。
-    <dib id = "lyrpic"
-      style = "position:absolute; left:0; top:100;">
-　　  <img src = "Graphics/wait_a_come.gif">
-    </dib>
+    <div id = "lyrpic"
+      style = "position:absolute; left:200; top:0;">
+　　  <img src = "Graphics/Desigh/Title/Title_BackMap.gif">
+    </div>
 
   </body>
 
