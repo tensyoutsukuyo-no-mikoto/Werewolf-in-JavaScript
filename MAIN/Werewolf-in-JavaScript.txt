@@ -1,25 +1,26 @@
+<!--<!DOCTYPE html>-->
 <html>
-
   <head>
+    <meta charset = "UTF-8">
     <title>JavaScriptで人狼なりや？</title>
   </head>
 
   <body>
     <div id = "lyrpic"
-      style = "position:absolute; left:200; top:50">
+      style = "position:absolute; left:200; top:0">
       <img src = "Graphics/Desigh/Title/Title_BackMap.gif">
     </div>
     <div id = "lyrlink"
-      style = "position:absolute; left:750; top:500">
+      style = "position:absolute; left:660; top:300">
       <p>
-        アカウント名：<input type = "text" name = "acount" size = "50"><br>
-        パスワード：<input type = "password" name = "pass" size = "50">
+        アカウント<br><input type = "text" name = "acount" size = "40">
       </p>
       <p>
-        <input type = "submit" value = "ログイン" formaction = "Werewolf-in-Javascript2.html">
+        パスワード<br><input type = "password" name = "pass" size = "40">
+      </p>
+      <p>
+        <button type = "button">ログイン</button><!--Werewolf-in-Javascript2.html-->
       </p>
     </div>
-
   </body>
-
 </html>
