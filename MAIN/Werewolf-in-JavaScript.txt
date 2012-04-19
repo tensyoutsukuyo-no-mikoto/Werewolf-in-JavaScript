@@ -5,14 +5,19 @@
   </head>
 
   <body>
-
     <div id = "lyrpic"
-      style = "position:absolute; left:200; top:0;">
-　　  <img src = "Graphics/Desigh/Title/Title_BackMap.gif">
+      style = "position:absolute; left:200; top:50">
+      <img src = "Graphics/Desigh/Title/Title_BackMap.gif">
     </div>
     <div id = "lyrlink"
-      style = "position:absolute; left:800; top:800">
-      <a href = "Werewolf-in-Javascript2.html">ロビーに入る</a>
+      style = "position:absolute; left:750; top:500">
+      <p>
+        アカウント名：<input type = "text" name = "acount" size = "50"><br>
+        パスワード：<input type = "password" name = "pass" size = "50">
+      </p>
+      <p>
+        <input type = "submit" value = "ログイン" formaction = "Werewolf-in-Javascript2.html">
+      </p>
     </div>
 
   </body>
