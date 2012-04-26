@@ -10,6 +10,40 @@
 
 body
 {
-  background-color: block;
+  background-color: #000000;
   display: block;
 }
+
+#Werewolf_Title
+{
+  width:800;
+  height:600;
+  position:fixed;
+  top:50%;
+  left:50%;
+  margin-left:-400;
+  margin-top:-300;
+}
+
+#Werewolf_Title .introduce
+{
+  width:500;
+  height:500;
+}
+
+#Werewolf_Title .input_acount
+{
+  right:520;
+  top:300;
+  font-size:16px;
+  font-family:'ＭＳゴシック';
+}
+
+#Werewolf_Title .input_acount > *
+{
+  text-shadow: 2px 2px 4px black;
+  width:130;
+  height:auto;
+}
+
+
