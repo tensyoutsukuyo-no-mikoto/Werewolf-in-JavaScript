@@ -6,44 +6,56 @@
   width   : 0;
   height  : 0;
   color   : white;
+  overflow: hidden;
 }
 
 body
 {
-  background-color: #000000;
+  background: url(Graphics/Title/werewolf.png) #000;
   display: block;
 }
 
-#Werewolf_Title
+#werewolf_title
 {
-  width:800;
-  height:600;
+  width:800px;
+  height:600px;
   position:fixed;
   top:50%;
   left:50%;
-  margin-left:-400;
-  margin-top:-300;
+  margin-left:-400px;
+  margin-top:-300px;
 }
 
-#Werewolf_Title .introduce
+#werewolf_title .introduce
 {
-  width:500;
-  height:500;
+  width:400px;
+  height:600px;
+  background: #f0f0f0;
 }
 
-#Werewolf_Title .input_acount
+#werewolf_title .input_acount
 {
-  right:520;
-  top:300;
+  right:0;
+  width:300px;
+  height:600px;
   font-size:16px;
-  font-family:'ＭＳゴシック';
+  font-family:fantasy;
 }
 
-#Werewolf_Title .input_acount > *
+#werewolf_title .input_acount > *
 {
   text-shadow: 2px 2px 4px black;
-  width:130;
+  width:130px;
   height:auto;
 }
 
+#werewolf_title .input_acount > dt
+{ left: 20px; }
 
+#werewolf_title .input_acount > dd
+{ right:20px; }
+
+#werewolf_title .input_acount > .acount_label { top:20px; }
+#werewolf_title .input_acount > .acount_text { top:20px; }
+#werewolf_title .input_acount > .password_label { top:60px; }
+#werewolf_title .input_acount > .password_text { top:60px; }
