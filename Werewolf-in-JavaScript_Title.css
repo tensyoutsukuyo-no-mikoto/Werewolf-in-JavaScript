@@ -1,0 +1,51 @@
+﻿*
+{
+  position: absolute;
+  margin  : 0;
+  padding : 0;
+  width   : 0;
+  height  : 0;
+  color   : black;
+  overflow: hidden;
+}
+
+body
+{
+  background: url(Graphics/Title/werewolf.png) #000;
+  display: block;
+}
+
+#werewolf_title
+{
+  width:1000px;
+  height:600px;
+  position:fixed;
+  top:50%;
+  left:50%;
+  margin-left:-600px;
+  margin-top:-300px;
+}
+
+#werewolf_title .introduce
+{
+  width:600px;
+  height:600px;
+  background: #000000;
+}
+
+#werewolf_title .input_acount
+{
+  right:0;
+  top:50%;
+  width:300px;
+  height:600px;
+  font-size:24px;
+  font-family:fantasy;
+}
+
+#werewolf_title .input_acount > *
+{
+  width:200px;
+  height:auto;
+}
+
